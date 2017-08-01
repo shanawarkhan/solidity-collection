@@ -1,5 +1,14 @@
-
 pragma solidity ^0.4.13;
+// How to use the compiled contract
+// Set value = 1 ether
+// buy 1 ticket
+// refresh number of tickets
+// you can also copy/paste address you are using in purchasers input
+// Then click on purchases to see how many tickets that address has bought
+
+
+
+
 contract FuncConcert {
     address owner;
     uint public tickets;
@@ -34,11 +43,4 @@ contract FuncConcert {
     }
     
 }
-
-// How to use the code
-// Set value = 1 ether
-// buy 1 ticket
-// refresh number of tickets
-// you can also copy/paste address you are using in purchasers input
-// Then click on purchases to see how many tickets that address has bought
 
